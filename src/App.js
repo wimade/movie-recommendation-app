@@ -61,9 +61,10 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>Want to watch a movie but unable to pick?</h1>
+      <h1>Montserrado Media</h1>
+      <h2>Want to watch a movie but unable to pick?</h2>
       <h3>Pick one of my Recommendations!</h3>
-
+    
       <div>
         {genres.map((movie) => {
           return (
